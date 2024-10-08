@@ -1,0 +1,36 @@
+name: media_player_app
+description: A Flutter app with a login page and media playback functionality.
+
+# The following line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add the audioplayers package for audio playback
+  audioplayers: ^0.20.1
+
+  # Add the video_player package for video playback
+  video_player: ^2.5.1
+
+  # Dependencies for internationalization, platform support, etc.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/videos/

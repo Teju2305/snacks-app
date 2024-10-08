@@ -1,0 +1,54 @@
+name: flut
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  razorpay_web: ^1.4.2
+  fluttertoast: ^8.2.8
+  http: ^1.2.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/soup.jpg
+  - assets/burger.jpg
+  - assets/cake.jpg
+  - assets/coffee.jpg
+  - assets/donut.jpg
+  - assets/fries.jpg
+  - assets/juice.jpg
+  - assets/pasta.jpg
+  - assets/pizza.jpg
+  - assets/salad.jpg
+  - assets/sandwich.jpg
+  - assets/smoothie.jpg
+  - assets/soup.jpg
+  - assets/steak.jpg
+  - assets/sushi.jpg
+  - assets/tacos.jpg
+  - assets/tea.jpg
+  - assets/waffle.jpg
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
